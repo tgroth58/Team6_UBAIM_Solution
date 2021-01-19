@@ -1,6 +1,6 @@
 ## Project Title: Decision Support System in Oncology
 
-Team Members: FirstName , FirstName , and FirstName .
+Team Members: Ted , Lama , and Vaishnavi .
 
 Link to AIM Datathon: https://www.kaggle.com/c/aimdatathon2020/leaderboard <br>
 Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing

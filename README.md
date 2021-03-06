@@ -45,10 +45,10 @@ Out of 1215 females, the majority of the tumors were from the breast upper outer
 * For the RandomForest model GridSearchCV was used to optimize the hyperparameters. For the ANN model, RandomizedCV was used where not all parameter values are tried out, but rather a fixed number of parameter settings was sampled from the specified distributions.
 #### Results_Model-Performance_and_Interpretability
 * For the Random Forest, the conufision matrix,  f1-score and recall were obtained.
-- AUC score for the RandomForest was 0.76
+AUC score for the RandomForest was 0.76
 * For the ANN the accuracy and loss per epoch where plotted to see how the model is performance as it trains.
 The conufision matrix,  f1-score and recall were also obtained.
-- AUC score for the ANN model was 0.77
+AUC score for the ANN model was 0.77
 #### Solution-Video
 
 #### Acknowledgement

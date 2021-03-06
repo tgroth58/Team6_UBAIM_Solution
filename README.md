@@ -40,7 +40,7 @@ Refer to Race,FamilY History, Male and Female Primary Site, Histology, Grade and
 Out of 785 males,the majority of the tumors were from the prostate gland as the primary site (371[47.2%]),adenocarcinoma(496 [63%]), grade III: Poorly differentiated , dedifferentiated (369 [47%]), and stage 1 (478[60%]) . 
 Out of 1215 females, the majority of the tumors were from the breast upper outer quadrant primary site(300 [24.69%]), infiltrating duct carcinoma(535 [44%]), grade II: moderately differentiated, intermediate differentiated (522 [43%]), and stage 1 (737 [60%]).
 #### Validation-Strategies 
-* After the Train and Test Data was pre-processing. The training data was split into train and validation set. The test data was kept aside for evaluation of the models.
+* After the train and test Data was pre-processed. The training data was split into train and validation set. The test data was kept aside for evaluation of the models.
 #### Model-Training_and_Tuning
 * For the RandomForest model GridSearchCV was used to optimize the hyperparameters. For the ANN model, RandomizedCV was used where not all parameter values are tried out, but rather a fixed number of parameter settings was sampled from the specified distributions.
 #### Results_Model-Performance_and_Interpretability

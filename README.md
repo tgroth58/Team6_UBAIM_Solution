@@ -23,8 +23,9 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPV
 - Physcians are overwhlemed with patient cancer data, and would benefit from a system that outlines indiviaulized patients risk factors such as gender, date of birth, enthicity, medical family history, smoking habits, medications, dietary routines, physical activtiy, cancer stage, and grading to augment their clinical decision making. 
 
 #### ML-Pipeline
+Workflow:
 
-- Add a link to your code(Google Colab). Refer to this [sample notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for further details.
+- Link to code(https://colab.research.google.com/drive/1aLeYEjiFDu4nlSXN7JPgqdYrjO3Uml3v?usp=sharing).
 #### Data-Management
 Refer to Data Pre-Processing subtitle in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
 - Data Pre-processing/ Cleansing/Transformations(Changing column names, Merging different data sources, etc). 

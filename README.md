@@ -1,13 +1,12 @@
-## Project Title: Decision Support System in Oncology
+## Cancer Patient Survival Predicition 
 
-Team Members: Ted , Lama , and Vaishnavi .
+Team Members: Ted , Lama , and Vaishnavi.
 
 Link to AIM Datathon: https://www.kaggle.com/c/aimdatathon2020/leaderboard <br>
 Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing
 ### Contents
 
 * [Problem](#Problem)
-* [Solution](#Solution) (Clinical Revelance of the Model)
 * [ML Pipeline](#ML-Pipeline)
 * [Data Management](#Data-Management)
 * [Study Design](#Study-Design)
@@ -21,13 +20,10 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPV
 * [Acknowledgments](#acknowledgments)
 
 #### Problem
-- Physcians are overwhlemed with patient cancer data, and would benefit from a system that outlined indiviaulized patients risk factors based  patient's background like gender, date of birth, enthicity aswell as familial history, primiary site, cancer stage and grading to augment their clinical decision making. 
-
-#### Solution
-- A clinical decision system to help physicians keep track of their patients' progress using their background and individualized molecular level data.
+- Physcians are overwhlemed with patient cancer data, and would benefit from a system that outlines indiviaulized patients risk factors such as gender, date of birth, enthicity, medical family history, smoking habits, medications, dietary routines, physical activtiy, cancer stage, and grading to augment their clinical decision making. 
 
 #### ML-Pipeline
-- ML WorkFlow depicting the solution below.![Image](https://github.com/aimsymposium/Project-sample/raw/main/MLpipeline.png)
+
 - Add a link to your code(Google Colab). Refer to this [sample notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for further details.
 #### Data-Management
 Refer to Data Pre-Processing subtitle in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 

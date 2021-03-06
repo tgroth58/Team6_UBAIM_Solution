@@ -18,14 +18,11 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPV
 * [Solution Video](#Solution-Video)
   * Link a short video (unlisted Youtube link) that walks through your approach from github and code from google collab.
 * [Acknowledgments](#acknowledgments)
-
 #### Problem
 - Physcians are overwhlemed with patient cancer data, and would benefit from a system that outlines indiviaulized patients risk factors such as gender, date of birth, enthicity, medical family history, smoking habits, medications, dietary routines, physical activtiy, cancer stage, and grading to augment their clinical decision making. 
-
 #### ML-Pipeline
 Workflow:
 ![image](https://user-images.githubusercontent.com/20275395/110195557-00058080-7e0c-11eb-88fe-b7c90dcf6b78.png)
-
 - Link to code(https://colab.research.google.com/drive/1aLeYEjiFDu4nlSXN7JPgqdYrjO3Uml3v?usp=sharing).
 #### Data-Management/Feature engineering
 -Columns in the data frame with the fraction of null entries more than 80% were dropped.
@@ -34,7 +31,6 @@ Workflow:
 -Cateogrical features where converted to numeric using onehotencoding. The onehotencoded features with class imbalance (0,1) less than 0.15 where dropped.
 -After, the different datatype columns were preproccessed they were merged together to obtain the training data.
 -Feature selection was perfromed using feature modeling (logisitc regression with L1 penalty) to get the weights. The top and bottom ten features based on the cofficients from logistic regression were used.
-
 #### Study-Design
 ( Below are answer templates that can be used to formulate a paragraph for Study Design based on the goal and exploratory data analysis)
 Refer to Race,FamilY History, Male and Female Primary Site, Histology, Grade and Stage Distribution subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
@@ -45,34 +41,15 @@ Refer to Race,FamilY History, Male and Female Primary Site, Histology, Grade and
 36% of the patients had a paternal history with cancer and the greatest proportion was 10% prostate cancer. 39% of the patients had a maternal history with cancer and the greatest proportion was 11% breast cancer. 
 Out of 785 males,the majority of the tumors were from the prostate gland as the primary site (371[47.2%]),adenocarcinoma(496 [63%]), grade III: Poorly differentiated , dedifferentiated (369 [47%]), and stage 1 (478[60%]) . 
 Out of 1215 females, the majority of the tumors were from the breast upper outer quadrant primary site(300 [24.69%]), infiltrating duct carcinoma(535 [44%]), grade II: moderately differentiated, intermediate differentiated (522 [43%]), and stage 1 (737 [60%]).
-
 #### Validation-Strategies 
 After the Train and Test Data was pre-processing. The training data was split into train and validation set. The test data was kept aside for evaluation of the models.
-RandomizedCV was used 
-
 #### Model-Training_and_Tuning
-Refer to Logistic Regression and XGBoost subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
-
+For the RandomForest model GridSearchCV was used to optimize the hyperparameters. For the ANN model, RandomizedCV was used where not all parameter values are tried out, but rather a fixed number of parameter settings was sampled from the specified distributions.
 #### Results_Model-Performance_and_Interpretability
-Refer to Results,.... subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
-
--Include Summary of Results/Discussion and Picture of Results here.
-
-
--Logistic Regression
-
-![Image](https://github.com/aimsymposium/Project-sample/blob/main/LogisiticRegression.PNG)
-
-
--XGBoost
-
-![Image](https://github.com/aimsymposium/Project-sample/blob/main/XGBoost.PNG)
-
+For the Random Forest, the conufision matrix,  f1-score and recall were obtained.
+AUC score for the RandomForest was 0.76
+For the ANN the accuracy and loss per epoch where plotted to see how the model is performance as it trains.
+The conufision matrix,  f1-score and recall were also obtained.
+AUC score for the ANN model was 0.77
 #### Solution-Video
-
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
-
-
-#### Acknowledgments
-
 

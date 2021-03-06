@@ -26,12 +26,14 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPV
 Workflow:
 
 - Link to code(https://colab.research.google.com/drive/1aLeYEjiFDu4nlSXN7JPgqdYrjO3Uml3v?usp=sharing).
-#### Data-Management
-Refer to Data Pre-Processing subtitle in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
-- Data Pre-processing/ Cleansing/Transformations(Changing column names, Merging different data sources, etc). 
-- Methods for removing and selection of outliers
-- Methods for poor quality or missing data
-- Descriptive statistics(Pairwise correlation, ANOVA, Univariate Analysis, Odds Ratio).
+#### Data-Management/Feature engineering
+-Columns in the data frame with the fraction of null entries more than 80% were dropped.
+-Discrete data we removed nas and features with high homogeneity.
+-Continuous data was scaled using standard normalization and log transformation.
+-Cateogrical features where converted to numeric using onehotencoding. The onehotencoded features with class imbalance (0,1) less than 0.15 where dropped.
+-After, the different datatype columns were preproccessed they were merged together to obtain the training data.
+-Feature selection was perfromed using feature modeling (logisitc regression with L1 penalty) to get the weights. The top and bottom ten features based on the cofficients from logistic regression were used.
+
 #### Study-Design
 ( Below are answer templates that can be used to formulate a paragraph for Study Design based on the goal and exploratory data analysis)
 Refer to Race,FamilY History, Male and Female Primary Site, Histology, Grade and Stage Distribution subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 

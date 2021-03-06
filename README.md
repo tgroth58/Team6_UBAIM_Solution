@@ -24,7 +24,6 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPV
 
 #### ML-Pipeline
 Workflow:
-![image](https://user-images.githubusercontent.com/20275395/110195480-44dce780-7e0b-11eb-8763-46fbd68d00db.png)
 
 - Link to code(https://colab.research.google.com/drive/1aLeYEjiFDu4nlSXN7JPgqdYrjO3Uml3v?usp=sharing).
 #### Data-Management/Feature engineering

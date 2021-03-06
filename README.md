@@ -13,7 +13,7 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPV
 * Exploratory Analysis (add if applicable)
 * [Validation Strategies (Train and Test Data Pre-processing, Training/Validation Split)](#Validation-Strategies)
 * Feature Engineering (add if applicable)
-* [Model Training,Tuning (Logistic Regression, XGBoost, AUC performance metric)](#Model-Training_and_Tuning)
+* [Model Training,Tuning (Random Forest, ANN, AUC performance metric)](#Model-Training_and_Tuning)
 * [Results,Model Performance,Interpretability](#Results_Model-Performance_and_Interpretability)
 * [Solution Video](#Solution-Video)
   * Link a short video (unlisted Youtube link) that walks through your approach from github and code from google collab.
@@ -47,10 +47,8 @@ Out of 785 males,the majority of the tumors were from the prostate gland as the 
 Out of 1215 females, the majority of the tumors were from the breast upper outer quadrant primary site(300 [24.69%]), infiltrating duct carcinoma(535 [44%]), grade II: moderately differentiated, intermediate differentiated (522 [43%]), and stage 1 (737 [60%]).
 
 #### Validation-Strategies 
-Refer to Train and Test Data Pre-processing, Training/Validation Split subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
-
--Train and Test Data Pre-processing
--Training/Validation Split
+After the Train and Test Data was pre-processing. The training data was split into train and validation set. The test data was kept aside for evaluation of the models.
+RandomizedCV was used 
 
 #### Model-Training_and_Tuning
 Refer to Logistic Regression and XGBoost subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
